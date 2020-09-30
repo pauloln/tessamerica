@@ -1,6 +1,6 @@
 <?php
 
-$para= "alexandre@newlibor.com.br,evaldo@newlibor.com.br,giane@newlibor.com.br,paulo@newlibor.com.br";
+$para= "tessamerica@tessamerica.com.br";
 $assunto= "Contato pelo Site";
 
     $empresa= $_REQUEST['empresa'];
