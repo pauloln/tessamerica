@@ -1,0 +1,263 @@
+﻿@charset "UTF-8";
+
+/* ---------- FORMATAÇÃO GERAL ---------- */
+
+html, body {height: 98.4%}
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 12pt;
+}
+div.geral{
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+div#topo {
+    margin: 0px auto 0px auto;
+    padding: 10px 10px 10px 10px;
+    width: 900px;
+    position: relative;
+    z-index: 9999;
+}
+div#faixatopo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #555; /*#3078cd*/
+    font-family: bold Verdana, sans-serif;
+    font-size: 10pt;
+    color: #ffffff;
+}
+div#corpo {
+    width: 900px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+}
+div#corpo img.sombra {
+    margin: 0px ;
+    padding: 0px ;
+}
+header#tamanhofaixatopo {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+p.textotopo {
+    margin: 0px auto 0px auto;
+    float: right;
+    color: #ffffff;
+}
+p.textotopo span {
+    color: #ffd345;
+    margin: 0px;
+    padding: 0px;
+    font-family: bold Verdana, sans-serif;
+    font-size: 14pt;
+}
+
+/* ---------- FORMATAÇÃO LOGO ---------- */
+figure.logo {
+    margin: 0px 0px 10px 0px;
+}
+img#mapa {
+    float: right;
+}
+div#faixatopo a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ---------- FORMATAÇÃO MENU ---------- */
+nav#menu h1 {
+    display: none;
+}
+nav#menu ul.menup {
+    list-style: none;
+    text-transform: uppercase;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+}
+nav#menu ul.menup li {
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    position: relative;
+}
+nav#menu ul.menup a {
+    font-size: 10pt;
+    border-top: 1px solid rgba(0,0,0,0.0);
+    border-bottom: 1px solid rgba(0,0,0,0.0);
+    margin: 0px;
+    padding: 8px 20px;
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+nav#menu ul.menup a:hover {
+    border-top: 1px solid #07437D;
+    border-bottom: 1px solid #07437D;
+    color: #07437D;
+}
+/* ---------- FORMATAÇÃO SUBMENU ---------- */
+nav#menu ul.menup ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    padding: 0px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+}
+nav#menu ul.smenu1 li {
+    width: 185px;
+    float: left;
+}
+nav#menu ul.smenu2 li {
+    width: 140px;
+    float: left;
+}
+nav#menu ul.menup ul a {
+    background-color: #07437D;
+    color: #ffffff;
+    border: none;
+    transition: all .3s;
+}
+nav#menu ul.menup ul a:hover {
+    /*background-color: #ffff00;*/
+    background-color: #ffd345;
+    color: #07437D;
+    border: none;
+    transition: all .3s;
+}
+
+/* ---------- FORMATAÇÃO CORPO ---------- */
+p{
+    font-family: Verdana, sans-serif;
+    font-size: 9pt;
+    color: #555555;
+    text-align: justify;
+    line-height: 16pt;
+}
+h1 {
+    font-family: bold Verdana, sans-serif;
+    font-size: 14pt;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: bold Verdana, sans-serif;
+    font-size: 14pt;
+    color: #07437D;
+}
+h3 {
+    text-transform: uppercase;
+    font-family: bold Verdana, sans-serif;
+    font-size: 13pt;
+    color: #07437D;
+}
+h4 {
+    margin-left: 10px;
+    font-family: bold Verdana, sans-serif;
+    font-size: 8pt;
+    color: #999999;
+}
+h5 {
+    text-transform: uppercase;
+    font-family: bold Verdana, sans-serif;
+    font-size: 10pt;
+    color: #07437D;
+    background-color: #ffd345;
+    border: 1px solid #cecece;
+    padding: 2px;
+    width: 200px;
+}
+td {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 0px;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #fefefe, #dedede, #fefefe);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.2);
+}
+td p {
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+    width: 260px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+td span {
+    font-family: bold Verdana, sans-serif;
+    font-size: 8pt;
+    color: #07437D;
+}
+td span a {
+    text-decoration: none;
+    color: #4682B4;
+}
+td span a:hover {
+    text-decoration: underline;
+    color: #DAA520;
+    font-style: italic;
+}
+input {
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    width: 290px
+}
+input#env {
+    background-color: #07437D;
+    color: #FFFFFF;
+    width: 60px;
+    margin-top: 15px;
+}
+input#env:hover{
+    background-color: #FFFF00;
+    color: #07437D;
+}
+textarea {
+    font-family: Verdana, sans-serif;
+    font-size: 10pt;
+    font-style: italic;
+    min-width: 290px;
+    max-width: 290px;
+    min-height: 57px;
+    max-height: 57px;
+}
+
+/* ---------- FORMATAÇÃO RODAPÉ ---------- */
+div#rodape {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    line-height: 25px;
+    background-color: #555555; /*#3078cd*/
+    color: #ffffff;
+    margin: auto 0px 0px 0px;
+    padding: 0px;
+    font-family: bold Verdana, sans-serif;
+    font-size: 10pt;
+
+}
+footer#tamanhorodape {
+    width: 900px;
+    margin: 0px auto;
+}
+p.textorodape {
+    font-family: Verdana, sans-serif;
+    font-size: 8pt;
+    margin: 0px auto;
+    text-align: center;
+    color: #ffffff;
+}
+footer#tamanhorodape a {
+    text-decoration: none;
+    font-family: bold Verdana, sans-serif;
+    font-size: 8pt;
+    color: #ffffff;
+}
+footer#tamanhorodape a:hover {
+    text-decoration: underline;
+}

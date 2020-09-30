@@ -1,0 +1,12 @@
+section#formulario a {
+    color: #555555;
+    text-decoration: none;
+}
+section#formulario a:hover {
+    color: #2f78cd;
+    text-decoration: underline;
+}
+
+img#down {
+    margin: -2px 10px -5px 0px;
+}
