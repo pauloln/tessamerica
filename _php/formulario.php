@@ -1,6 +1,6 @@
 <?php
 
-$para= "";
+$para= "tessamerica@tessamerica.com.br";
 $assunto= "Contato pelo Site";
 
     $empresa= $_REQUEST['empresa'];
