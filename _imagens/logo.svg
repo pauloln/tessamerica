@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.52724989"
-     inkscape:cx="374.06033"
-     inkscape:cy="481.55262"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="497.88366"
+     inkscape:cy="456.50539"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -157,18 +157,7 @@
        cy="31.350819"
        r="72.794113" />
     <g
-       id="g1227">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0.330729px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="85.84848"
-         y="107.27018"
-         id="text1143"><tspan
-           sodipodi:role="line"
-           id="tspan1141"
-           x="85.84848"
-           y="107.27018"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3472px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.383646px;stroke-width:0.264583">IMPORTAÇÃO E EXPORTAÇÃO LTDA</tspan></text>
+       id="g1269">
       <g
          id="g956-0"
          style="fill:#b3b3b3"
@@ -258,6 +247,17 @@
            x="76.007812"
            y="92.083565"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">Tessamerica</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0.330729px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="85.84848"
+         y="107.27018"
+         id="text1143"><tspan
+           sodipodi:role="line"
+           id="tspan1141"
+           x="85.84848"
+           y="107.27018"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3472px;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0.383646px;stroke-width:0.264583">IMPORTAÇÃO E EXPORTAÇÃO LTDA</tspan></text>
     </g>
   </g>
 </svg>
