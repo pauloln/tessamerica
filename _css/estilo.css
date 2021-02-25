@@ -61,6 +61,9 @@ p.textotopo span {
 figure.logo {
     margin: 0px 0px 10px 0px;
 }
+#tamanhologo{
+    width: 240px;
+}
 img#mapa {
     float: right;
 }
