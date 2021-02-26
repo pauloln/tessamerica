@@ -10,3 +10,12 @@ section#formulario a:hover {
 img#down {
     margin: -2px 10px -5px 0px;
 }
+
+#mapa_brasil {
+    background-image: url(../_imagens/img_mapa_brasil.png);
+
+}
+#logo_formulario {
+    width: 600px;
+    position: relative;
+}
